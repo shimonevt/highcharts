@@ -10,4 +10,5 @@ export default defineConfig({
       { find: "@data", replacement: path.resolve(__dirname, "./data") },
     ],
   },
+  base: "/highcharts/",
 });
